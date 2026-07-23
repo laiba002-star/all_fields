@@ -8,7 +8,9 @@ Original file is located at
 """
 
 # 1. Install and import all required processing libraries safely
-streamlit
+import streamlit as st
+
+st.title("My App")
 ultralytics
 opencv-python-headless
 pillow
